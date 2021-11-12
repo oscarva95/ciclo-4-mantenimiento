@@ -104,14 +104,15 @@ WSGI_APPLICATION = 'authProject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd32hsfoehd5bir',
-        'USER':'kdesqiltnkxyim',
-        'PASSWORD':'0db7552f21ec14616bd2325e98000feb3e0007d246bdd9edfd351a8b8e6aaab3',
-        'HOST':'ec2-23-23-181-251.compute-1.amazonaws.com',
-        'PORT':'5432',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'frnimoaq_pc24x7',
+        'USER': 'frnimoaq_mintic',
+        'PASSWORD': 'unal@2021',
+        'HOST': '153.92.215.93',
+        'PORT': '3306',
     }
 }
+
 
 
 # Password validation
