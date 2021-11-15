@@ -34,7 +34,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     username = models.CharField('Username',max_length=15,unique=True)
     password = models.CharField('Password',max_length=256)
     name = models.CharField('Name', max_length=30)
-    email = models,EmailField('Email',max_length=150)
+    email = models.EmailField('Email',max_length=150,null=True)
 
     #para encriptar contraseñas
     def save(self, **kwargs):
